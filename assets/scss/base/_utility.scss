@@ -1,0 +1,15 @@
+$utilities: map-merge($utilities,
+    ("font-size": map-merge(map-get($utilities, "font-size"),
+        (responsive: true),
+      ),
+    ));
+// end of RWD
+
+
+.ff-fantasy {
+  font-family: 'Shrikhand', cursive;
+}
+
+.mw-1320 {
+  max-width: 1320px;
+}

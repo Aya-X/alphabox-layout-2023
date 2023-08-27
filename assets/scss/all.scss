@@ -1,0 +1,20 @@
+/* BOOTSTRAP */
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/_variables.scss";
+@import "../../node_modules/bootstrap";
+
+// CUSTOM Utility
+@import "./base/_utility.scss";
+
+// BOOTSTRAP utilities api，for font-size RWD
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+// CUSTOM Base
+@import './base/base.scss';
+
+// CUSTOM  Layout
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+// CUSTOM  Pages
+@import './pages/index.scss';
