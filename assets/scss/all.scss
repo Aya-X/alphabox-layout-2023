@@ -14,11 +14,14 @@
 
 // Custom Components
 @import './components/arrow-hover.scss';
+@import './components/input-decorate.scss';
 
 // CUSTOM  Layout
 @import './layout/header.scss';
 @import './layout/footer.scss';
-@import './layout/news.scss';
 
 // CUSTOM  Pages
 @import './pages/index.scss';
+
+// CUSTOM Utils
+@import './utils/animation.scss';

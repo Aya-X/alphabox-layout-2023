@@ -1,0 +1,12 @@
+.self-rotate-5s{
+    animation: self-rotate360 5s infinite linear;
+}
+
+@keyframes self-rotate360 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
