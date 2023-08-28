@@ -24,6 +24,10 @@ $utilities: map-merge($utilities,
   letter-spacing: 48px;
 }
 
+.letter-spacing-80{
+  letter-spacing: 80px;
+}
+
 // text-breakpoint
 // @include media-breakpoint-up(md) {
 //   .breakpoint-md-block{

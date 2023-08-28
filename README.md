@@ -2,7 +2,7 @@
 
 - PAGES
 
-> <https://study-hex.github.io/alphabox-layout-2023/>
+> <https://aya-x.github.io/alphabox-layout-2023/>
 
 ---
 
