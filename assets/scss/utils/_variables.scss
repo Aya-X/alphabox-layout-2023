@@ -316,6 +316,7 @@ $brand-06:     #E9E2F3;
 // $gredient-02:   radial-gradient(50% 50.00% at 50% 50.00%, #28085C 0%, rgba(0, 0, 0, 0.00) 100%);
 $brand-07:       #828282;
 $brand-08:       #D9D9D9;
+$brand-09:       #AD93CF;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -338,6 +339,7 @@ $theme-colors: (
   // "gredient-02":  $gredient-02,
   "brand-07":      $brand-07,
   "brand-08":      $brand-08,
+  "brand-09":      $brand-09,
 ) !default;
 // scss-docs-end theme-colors-map
 
