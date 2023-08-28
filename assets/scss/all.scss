@@ -12,9 +12,11 @@
 // CUSTOM Base
 @import './base/base.scss';
 
-// CUSTOM Base
+// Custom Components
 @import './components/img.scss';
 @import './components/border.scss';
+@import './components/arrow-hover.scss';
+@import './components/input-decorate.scss';
 
 // CUSTOM  Layout
 @import './layout/banner.scss';
@@ -22,7 +24,7 @@
 @import './layout/footer.scss';
 
 // CUSTOM  Utils
-@import './utils/animations.scss';
+@import './utils/animation.scss';
 
 // CUSTOM  Pages
 @import './pages/index.scss';
