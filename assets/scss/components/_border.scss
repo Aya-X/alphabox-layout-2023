@@ -1,0 +1,16 @@
+.border-1-bottom-8::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff; /* 邊框顏色 */
+  margin-top: 8px; /* 距離上方 8px */
+}
+.border-1-top-4::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff; /* 邊框顏色 */
+  margin-bottom: 4px; /* 距離上方 8px */
+}
