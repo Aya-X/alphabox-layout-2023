@@ -5,7 +5,7 @@ $utilities: map-merge($utilities,
     ));
 // end of RWD
 
-/*Custom Fonts*/
+/* Custom Fonts */
 // font family
 .ff-fantasy {
   font-family: 'Shrikhand', cursive;
@@ -28,16 +28,8 @@ $utilities: map-merge($utilities,
   letter-spacing: 80px;
 }
 
-// text-breakpoint
-// @include media-breakpoint-up(md) {
-//   .breakpoint-md-block{
-//     display: block;
-//   }
-// }
 
-
-
-/*Margin*/
+/* Custom Width */
 .mw-1320 {
   max-width: 1320px;
 }
