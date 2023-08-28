@@ -1,0 +1,13 @@
+.placeholder-brand-05 {
+        color: $brand-05;
+}
+
+input.placeholder-brand-05::placeholder {
+        color: $brand-05
+                /* 設定 placeholder 的顏色 */
+}
+
+textarea.placeholder-brand-05::placeholder {
+        color: $brand-05
+                /* 設定 placeholder 的顏色 */
+}
