@@ -622,6 +622,7 @@ $h5-font-size:                $font-size-base * 1.25 !default; // 20
 $h6-font-size:                $font-size-base !default; // 16
 // scss-docs-end font-variables
 
+// *custom
 // scss-docs-start font-sizes
 $font-sizes: (
   8: 8px,
@@ -635,6 +636,8 @@ $font-sizes: (
   64: 64px,
   80: 80px,
   96: 96px,
+  128: 128px,
+  400: 400px
 ) !default;
 // scss-docs-end font-sizes
 
