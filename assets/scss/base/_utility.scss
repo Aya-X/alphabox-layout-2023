@@ -59,8 +59,12 @@ $utilities: map-merge($utilities,
   max-width: 1320px;
 }
 
-@include media-breakpoint-up(lg) {
-  .w-lg-60 {
+@include media-breakpoint-up(md) {
+  .w-md-416 {
+    width: 416px;
+  }
+
+  .w-md-60{
     width: 60%;
   }
 }
@@ -70,5 +74,13 @@ $utilities: map-merge($utilities,
 @include media-breakpoint-up(md) {
   .border-md-end {
     border-right: 1px solid white;
+  }
+}
+
+
+/* Custom Margin */
+@include media-breakpoint-up(md) {
+  .mb-md-124{
+    margin-bottom: 124px;
   }
 }
