@@ -1,6 +1,6 @@
-* {
-  outline: 1px solid #f73;
-}
+// * {
+//   outline: 1px solid #f73;
+// }
 
 $utilities: map-merge($utilities,
     ("font-size": map-merge(map-get($utilities, "font-size"),
