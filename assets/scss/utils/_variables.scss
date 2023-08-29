@@ -312,8 +312,8 @@ $brand-03:     #6E01F8;
 $brand-04:     #380C7E;
 $brand-05:     #1F0F39;
 $brand-06:     #E9E2F3;
-// $gredient-01:   linear-gradient(180deg, #7000FF 0%, rgba(17, 0, 45, 0.00) 100%);
-// $gredient-02:   radial-gradient(50% 50.00% at 50% 50.00%, #28085C 0%, rgba(0, 0, 0, 0.00) 100%);
+// $gradient-01:   linear-gradient(180deg, #7000FF 0%, rgba(17, 0, 45, 0.00) 100%);
+// $gradient-02:   radial-gradient(50% 50.00% at 50% 50.00%, #28085C 0%, rgba(0, 0, 0, 0.00) 100%);
 $brand-07:       #828282;
 $brand-08:       #D9D9D9;
 $brand-09:       #AD93CF;
@@ -335,8 +335,8 @@ $theme-colors: (
   "brand-04":    $brand-04,
   "brand-05":    $brand-05,
   "brand-06":    $brand-06,
-  // "gredient-01":  $gredient-01,
-  // "gredient-02":  $gredient-02,
+  // "gradient-01":  $gradient-01,
+  // "gradient-02":  $gradient-02,
   "brand-07":      $brand-07,
   "brand-08":      $brand-08,
   "brand-09":      $brand-09,
@@ -1160,13 +1160,15 @@ $navbar-light-hover-color:          rgba($black, .7) !default;
 $navbar-light-active-color:         rgba($black, .9) !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;
 $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
-$navbar-light-toggler-border-color: rgba($black, .1) !default;
+$navbar-light-toggler-border-color: transparent !default;  // *custom
+// $navbar-light-toggler-border-color: rgba($black, .1) !default;
 $navbar-light-brand-color:          $navbar-light-active-color !default;
 $navbar-light-brand-hover-color:    $navbar-light-active-color !default;
 // scss-docs-end navbar-variables
 
 // scss-docs-start navbar-dark-variables
-$navbar-dark-color:                 rgba($white, .55) !default;
+$navbar-dark-color:                 $white !default;  // *custom
+// $navbar-dark-color:                 rgba($white, .55) !default;
 $navbar-dark-hover-color:           rgba($white, .75) !default;
 $navbar-dark-active-color:          $white !default;
 $navbar-dark-disabled-color:        rgba($white, .25) !default;

@@ -1,3 +1,7 @@
+* {
+  outline: 1px solid #f73;
+}
+
 $utilities: map-merge($utilities,
     ("font-size": map-merge(map-get($utilities, "font-size"),
         (responsive: true),
@@ -32,6 +36,11 @@ $utilities: map-merge($utilities,
   letter-spacing: 40px;
 }
 
+.bg-linear-01 {
+  background: linear-gradient(180deg, #7000FF 0%, rgba(17, 0, 45, 0.00) 100%);
+  // linear-gradient(180deg, #7000FF 0%, #11002D 100%);
+}
+
 
 @include media-breakpoint-up(md) {
   .letter-spacing-md-48 {
@@ -51,7 +60,7 @@ $utilities: map-merge($utilities,
 }
 
 @include media-breakpoint-up(lg) {
-  .w-lg-60{
+  .w-lg-60 {
     width: 60%;
   }
 }
