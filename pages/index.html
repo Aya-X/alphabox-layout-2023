@@ -5,15 +5,16 @@
 
   <body>
     <%- include('./layout/header'); -%>
-    
-    <%- include('./layout/banner'); -%>
 
-    <%- include('./layout/news'); -%>
+      <%- include('./layout/banner'); -%>
 
-    <%- include('./layout/contact'); -%>
+        <%- include('./layout/news'); -%>
+          <%- include('./layout/customer-feedback'); -%>
+            <%- include('./layout/contact'); -%>
 
-    <%- include('./layout/footer'); -%>
-        <script type="module" src="../main.js"></script>
+              <%- include('./layout/footer'); -%>
+                <!-- Main JS -->
+                <script type="module" src="../main.js"></script>                
   </body>
 
 </html>
