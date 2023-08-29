@@ -15,6 +15,11 @@ $utilities: map-merge($utilities,
   font-family: 'Shrikhand', cursive;
 }
 
+.ff-Saira {
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+
 // letter-spacing
 .letter-spacing-10 {
   letter-spacing: 10px;
@@ -36,20 +41,39 @@ $utilities: map-merge($utilities,
   letter-spacing: 40px;
 }
 
+.letter-spacing-320 {
+  letter-spacing: 320px;
+}
+
+
+
 .bg-linear-01 {
   background: linear-gradient(180deg, #7000FF 0%, rgba(17, 0, 45, 0.00) 100%);
   // linear-gradient(180deg, #7000FF 0%, #11002D 100%);
+}
+
+.bg-cover-start {
+  background-position: start center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include media-breakpoint-up(md) {
+    background-position: center center;
+  }
 }
 
 
 @include media-breakpoint-up(md) {
   .letter-spacing-md-48 {
     letter-spacing: 48px;
-
   }
 
   .letter-spacing-md-80 {
     letter-spacing: 80px;
+  }
+
+  .letter-spacing-md-1000 {
+    letter-spacing: 1000px;
   }
 }
 
