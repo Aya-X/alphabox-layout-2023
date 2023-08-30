@@ -2,20 +2,27 @@
   &-gallery {
     width: 50%;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       width: 25%;
     }
 
+    // #NOTE: make number center
+    & hgroup>span {
+      width: 80px;
+    }
+
+    // #NOTE: have to change file, so remove inline bg-image
     &:nth-child(4)>a {
-      @media (min-width: 768px) {
+      background-image: url(../assets/images/vito_mobile.png);
+
+      @include media-breakpoint-up(lg) {
         background-image: url(../assets/images/vito_vertical.png);
       }
     }
 
-
     &:nth-child(2n+1),
     &:nth-child(2) {
-      @media (min-width: 768px) {
+      @include media-breakpoint-up(lg) {
         border-right: 1px solid $white;
       }
     }
@@ -23,7 +30,7 @@
     >a {
       height: 60vh;
 
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         height: auto;
       }
 

@@ -7,6 +7,11 @@ $utilities: map-merge($utilities,
         (responsive: true),
       ),
     ));
+
+// $utilities: map-merge($utilities, ("width": map-merge(map-get($utilities, "width"),
+//         (responsive: true),
+//       ),
+//     ));
 // end of RWD
 
 
@@ -58,7 +63,7 @@ $utilities: map-merge($utilities,
   background-repeat: no-repeat;
   background-size: cover;
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     background-position: center center;
   }
 }
@@ -132,7 +137,7 @@ $utilities: map-merge($utilities,
 
 /* Custom Margin */
 @include media-breakpoint-up(md) {
-  .mb-md-124{
+  .mb-md-124 {
     margin-bottom: 124px;
   }
 }
