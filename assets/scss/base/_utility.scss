@@ -7,6 +7,11 @@ $utilities: map-merge($utilities,
         (responsive: true),
       ),
     ));
+
+// $utilities: map-merge($utilities, ("width": map-merge(map-get($utilities, "width"),
+//         (responsive: true),
+//       ),
+//     ));
 // end of RWD
 
 
@@ -46,6 +51,10 @@ $utilities: map-merge($utilities,
   letter-spacing: 320px;
 }
 
+.rounded-24 {
+  border-radius: 24px;
+}
+
 
 
 .bg-linear-01 {
@@ -53,12 +62,16 @@ $utilities: map-merge($utilities,
   // linear-gradient(180deg, #7000FF 0%, #11002D 100%);
 }
 
+.bg-linear-02 {
+  background: radial-gradient(50% 50.00% at 50% 50.00%, #28085C 0%, #000 100%);
+}
+
 .bg-cover-start {
   background-position: start center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     background-position: center center;
   }
 }
@@ -132,7 +145,7 @@ $utilities: map-merge($utilities,
 
 /* Custom Margin */
 @include media-breakpoint-up(md) {
-  .mb-md-124{
+  .mb-md-124 {
     margin-bottom: 124px;
   }
 }
