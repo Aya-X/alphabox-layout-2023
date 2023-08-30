@@ -88,24 +88,28 @@ $utilities: map-merge($utilities,
   max-width: 1320px;
 }
 
-@include media-breakpoint-up(sm) {
-  .w-sm-416 {
-    width: 416px;
-  }
-}
+// @include media-breakpoint-up(sm) {
+//   .w-sm-416 {
+//     width: 416px;
+//   }
+// }
 
 @include media-breakpoint-up(md) {
-  .w-md-416 {
+  .w-md-416px.w-md-416px {
     width: 416px;
   }
 
-  .w-md-75-percent{
+  .w-md-75.w-md-75{
     width: 75%;
+  }
+
+  .w-md-60.w-md-60{
+    width: 60%;
   }
 }
 
 /* Custom Height*/
-.h-350{
+.h-350px{
   height: 350px;
 }
 
@@ -116,7 +120,7 @@ $utilities: map-merge($utilities,
 // }
 
 @include media-breakpoint-up(md) {
-  .h-md-416 {
+  .h-md-416px.h-md-416px {
     height: 416px;
   }
 }
@@ -138,7 +142,7 @@ $utilities: map-merge($utilities,
 
 /* Custom Position */
 @include media-breakpoint-up(lg) {
-  .position-lg-absolute{
+  .position-lg-absolute.position-lg-absolute{
     position: absolute;
   }
 }
