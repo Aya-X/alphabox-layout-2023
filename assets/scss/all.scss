@@ -6,6 +6,9 @@
 // BOOTSTRAP utilities api，for font-size RWD
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
+// CUSTOM  Utils
+@import './utils/animation.scss';
+
 // CUSTOM Utility
 @import "./base/_utility.scss";
 
@@ -13,18 +16,15 @@
 @import './base/base.scss';
 
 // Custom Components
-@import './components/img.scss';
+@import './components/hover.scss';
 @import './components/border.scss';
-@import './components/arrow-hover.scss';
 @import './components/input-decorate.scss';
 
 // CUSTOM  Layout
 @import './layout/banner.scss';
+@import './layout/alphabox-plus.scss';
 @import './layout/header.scss';
 @import './layout/footer.scss';
-
-// CUSTOM  Utils
-@import './utils/animation.scss';
 
 // CUSTOM  Pages
 @import './pages/index.scss';
