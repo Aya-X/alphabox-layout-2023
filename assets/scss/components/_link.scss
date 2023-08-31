@@ -1,6 +1,22 @@
-.link {
-  &-hover-effect {
-    &:before {
+.link-hover {
+  &-effect {
+    /* for underline */
+    position: relative;
+    display: inline-block;
+
+    &::before,
+    &::after {
+      /* pseudo-element */
+      content: "";
+      position: absolute;
+      transition: transform 0.5s ease;
+    }
+  }
+
+  &-underline {
+
+    /* underline style */
+    &::before {
       left: 0;
       bottom: 0;
       width: 100%;
@@ -12,7 +28,7 @@
       transform: scaleX(0);
     }
 
-    &:hover:before {
+    &:hover::before {
       /* show */
       transform: scaleX(1);
     }
