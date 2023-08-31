@@ -3,14 +3,14 @@
 @import "./utils/_variables.scss";
 @import "../../node_modules/bootstrap";
 
-// BOOTSTRAP utilities api，for font-size RWD
-@import "../../node_modules/bootstrap/scss/utilities/api";
-
 // CUSTOM  Utils
 @import './utils/animation.scss';
 
 // CUSTOM Utility
 @import "./base/_utility.scss";
+
+// BOOTSTRAP utilities api，for font-size RWD
+@import "../../node_modules/bootstrap/scss/utilities/api";
 
 // CUSTOM Base
 @import './base/base.scss';
@@ -19,12 +19,17 @@
 @import './components/hover.scss';
 @import './components/border.scss';
 @import './components/input-decorate.scss';
+@import './components/card.scss';
+@import './components/link.scss';
+@import './components/button.scss';
+@import './components/scrollbar.scss';
 
 // CUSTOM  Layout
 @import './layout/banner.scss';
 @import './layout/alphabox-plus.scss';
 @import './layout/header.scss';
 @import './layout/footer.scss';
+@import './layout/customer-feedback.scss';
 
 // CUSTOM  Pages
 @import './pages/index.scss';

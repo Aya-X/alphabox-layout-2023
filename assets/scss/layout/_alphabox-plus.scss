@@ -3,7 +3,7 @@
   height: 1080px;
   background: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);
   z-index: -1;
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(xxl) {
     height: 791px;
   }
 }
@@ -36,11 +36,13 @@
   width: 100%;
 }
 .alphaboxPlus-carousel-bg {
-  background: url(/assets/images/design-desktop-carousel-fimga_x2.png) no-repeat center center / 100% auto;
+  background: url(/assets/images/design-desktop-carousel-fimga_x2.png) no-repeat
+    center center / 100% auto;
   width: 100%;
   height: 560px;
   @include media-breakpoint-down(xxl) {
-    background: url(/assets/images/design-desktop-carousel-fimga_x2.png) no-repeat center center / cover;
+    background: url(/assets/images/design-desktop-carousel-fimga_x2.png)
+      no-repeat center center / cover;
     height: 351px;
     margin: 0 auto;
   }
@@ -49,19 +51,18 @@
       center / 100% auto;
   }
   @include media-breakpoint-up(xxl) {
-    width: 73.6363%;    
+    width: 73.6363%;
   }
-  h3{
+  h3 {
     @include media-breakpoint-up(md) {
       font-size: 96px;
     }
   }
-  h4{
+  h4 {
     @include media-breakpoint-up(md) {
       font-size: 32px;
     }
   }
-  
 }
 .alphaboxPlus-carousel-a {
   width: 10.2272%;

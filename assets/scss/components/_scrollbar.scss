@@ -1,0 +1,33 @@
+.modal-body {
+  // #NOTE: 寫在類別裡面就好
+  /* Firefox-specific styles */
+  scrollbar-width: thin;
+  /* thumb track */
+  scrollbar-color: $black $brand-06;
+
+  &::-webkit-scrollbar {
+    width: .325rem;
+    // width: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    // 滾動條滑塊顏色
+    background-color: $black;
+
+    border: 1px solid $brand-06;
+    border-radius: 12px;
+    // Firefox 兼容
+    -moz-border-radius: 12px;
+    // Chrome、Safari 兼容
+    -webkit-border-radius: 12px;
+
+    &:hover {
+      box-shadow: inset 0 0 4px $brand-02;
+    }
+  }
+
+  // 滾動條軌道背景顏色
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+}

@@ -1,0 +1,9 @@
+// 參考 https://codepen.io/izumi-dev/pen/abPdaXJ
+.swiper-scrollbar{
+    background: rgba(255, 255, 255, 0.2);
+    position:static !important;
+}
+
+.swiper-scrollbar-drag {
+    background: $white  !important;
+}

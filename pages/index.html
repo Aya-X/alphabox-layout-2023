@@ -10,12 +10,31 @@
       <%- include('./layout/alphabox-plus'); -%>
 
         <%- include('./layout/news'); -%>
+
           <%- include('./layout/customer-feedback'); -%>
+
             <%- include('./layout/contact'); -%>
 
-              <%- include('./layout/footer'); -%>
-                <!-- Main JS -->
-                <script type="module" src="../main.js"></script>                
+              <%- include('./layout/gallery'); -%>
+
+                <%- include('./layout/footer'); -%>
+
+                  <!-- Main JS -->
+                  <script type="module" src="../main.js"></script>
+                  <!-- Swiper JS -->
+                  <script type="module">
+                    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
+
+                    var swiper = new Swiper(".feedbackSwiper", {
+                      slidesPerView: "auto",
+                      scrollbar: {
+                        el: ".swiper-scrollbar",
+                        draggable: true, //拖曳
+                      },
+                      spaceBetween: 24,
+                      mousewheel: true, //滾輪                 
+                    });
+                  </script>
   </body>
 
 </html>

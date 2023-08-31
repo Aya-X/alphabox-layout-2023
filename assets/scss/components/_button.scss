@@ -1,0 +1,13 @@
+.btn {
+  &-terms {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    padding: 8px;
+
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 9999;
+  }
+}

@@ -7,12 +7,18 @@ $utilities: map-merge($utilities,
 ));
 /* Custom Bootstrap utilities END*/
 
+
 /* Custom Fonts */
 // font family
 .ff-fantasy {
   font-family: 'Shrikhand', cursive;
 }
 /* Custom Fonts END*/
+
+.ff-Saira {
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
 
 // letter-spacing
 .letter-spacing-10 {
@@ -35,19 +41,50 @@ $utilities: map-merge($utilities,
   letter-spacing: 40px;
 }
 
+.letter-spacing-320 {
+  letter-spacing: 320px;
+}
+
+.rounded-24 {
+  border-radius: 24px;
+}
+
+
+
 .bg-linear-01 {
   background: linear-gradient(180deg, #7000FF 0%, rgba(17, 0, 45, 0.00) 100%);
+}
+
+.bg-linear-02 {
+  background: radial-gradient(50% 50.00% at 50% 50.00%, #28085C 0%, #000 100%);
+}
+
+.bg-cover-start {
+  background-position: start center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include media-breakpoint-up(lg) {
+    background-position: center center;
+  }
 }
 
 
 @include media-breakpoint-up(md) {
   .letter-spacing-md-48 {
     letter-spacing: 48px;
+  }
 
+  .letter-spacing-md-64 {
+    letter-spacing: 64px;
   }
 
   .letter-spacing-md-80 {
     letter-spacing: 80px;
+  }
+
+  .letter-spacing-md-1000 {
+    letter-spacing: 1000px;
   }
 }
 
@@ -71,11 +108,11 @@ $utilities: map-merge($utilities,
 }
 
 @include media-breakpoint-up(md) {
-  .w-md-416 {
-    width: 416px;
+  .w-md-75.w-md-75{
+    width: 75%;
   }
 
-  .w-md-60{
+  .w-md-60.w-md-60{
     width: 60%;
   }
 }
@@ -117,7 +154,7 @@ $utilities: map-merge($utilities,
 
 /* Custom Margin */
 @include media-breakpoint-up(md) {
-  .mb-md-124{
+  .mb-md-124 {
     margin-bottom: 124px;
   }
 }
@@ -159,3 +196,17 @@ $utilities: map-merge($utilities,
 }
 
 /* Custom Fonts END*/
+
+/* Custom Position */
+@include media-breakpoint-up(lg) {
+  .position-lg-absolute.position-lg-absolute{
+    position: absolute;
+  }
+}
+
+/* Custom Gap */
+@include media-breakpoint-up(md) {
+  .gap-mb-74{
+    gap: 74px;
+  }
+}
