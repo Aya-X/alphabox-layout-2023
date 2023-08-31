@@ -120,13 +120,16 @@
       <!-- Modal -->
       <div class="modal fade" id="termsModal" tabindex="-1"
         aria-labelledby="termsModalLabel" aria-hidden="true">
+
         <div class="modal-dialog position-relative modal-dialog-scrollable">
-          <div class="modal-content">
+          <button type="button" class="position-absolute btn-terms btn-close"
+            data-bs-dismiss="modal" aria-label="Close">
+          </button>
 
-            <button type="button" class="position-absolute btn-terms btn-close"
-              data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-content" type="button" data-bs-dismiss="modal"
+            aria-label="Close">
 
-            <div class="modal-body p-40 d-flex flex-column gap-16 text-black">
+            <div class="modal-body px-40 d-flex flex-column gap-16 text-black">
               <p>ALPHABOX+ 註冊條例</p>
 
               <p>感謝您選擇使用 ALPHABOX+ 品牌的 Felix 3D
@@ -214,6 +217,27 @@
       <%- include('./layout/footer'); -%>
 
         <script type="module" src="../main.js"></script>
+
+        <!-- <script type="module">
+          // import { Modal } from 'bootstrap';
+
+          // let termsModal = new Modal(document.querySelector('#termsModal'));
+          // const modalBody = document.querySelector('.modal-body');
+
+          // modalBody.addEventListener('click', () => {
+          //   // QQ
+          //   // termsModal.hide();
+          // })
+
+          // termsModal.addEventListener('show.bs.modal', function (event) {
+          //   if (!data) {
+          //     // stops modal from being shown
+          //     return event.preventDefault()
+          //   }
+          //   console.log('Modal 開始顯示');
+          // })
+
+        </script> -->
   </body>
 
 </html>
