@@ -3,6 +3,21 @@ html {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
+a {
+  /* for underline */
+  position: relative;
+  display: inline-block;
+}
+
+a:before,
+a:after {
+  /* pseudo-element */
+  content: "";
+  position: absolute;
+
+  transition: transform 0.5s ease;
+}
+
 img,
 svg {
   vertical-align: middle;
