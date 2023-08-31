@@ -1,0 +1,72 @@
+.alphaboxPlus {
+  position: relative;
+  height: 1080px;
+  background: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);
+  z-index: -1;
+  @include media-breakpoint-down(xxl) {
+    height: 791px;
+  }
+}
+.alphaboxPlus-textContent {
+  p {
+    @include media-breakpoint-up(md) {
+      font-size: 48px;
+    }
+  }
+}
+.alphaboxPlus-text-why {
+  width: 13.6363%;
+  @include media-breakpoint-down(md) {
+    width: 34.188%;
+  }
+}
+.alphaboxPlus-text-container {
+  width: 38.8953%;
+  @include media-breakpoint-down(md) {
+    width: 95.4415%;
+  }
+}
+.img-alphaboxPlus {
+  width: 49.375%;
+  height: 100%;
+  z-index: -2;
+  filter: blur(12px);
+}
+.alphaboxPlus-carousel {
+  width: 100%;
+}
+.alphaboxPlus-carousel-bg {
+  background: url(/assets/images/design-desktop-carousel-fimga_x2.png) no-repeat
+    center center / 100% auto;
+  width: 100%;
+  height: 560px;
+  @include media-breakpoint-down(xxl) {
+    background: url(/assets/images/design-desktop-carousel-fimga_x2.png)
+      no-repeat center center / cover;
+    height: 351px;
+    margin: 0 auto;
+  }
+  @include media-breakpoint-down(lg) {
+    background: url(/assets/images/carousel-mobile-figma.png) no-repeat center
+      center / 100% auto;
+  }
+  @include media-breakpoint-up(xxl) {
+    width: 73.6363%;
+  }
+  h3 {
+    @include media-breakpoint-up(md) {
+      font-size: 96px;
+    }
+  }
+  h4 {
+    @include media-breakpoint-up(md) {
+      font-size: 32px;
+    }
+  }
+}
+.alphaboxPlus-carousel-a {
+  width: 10.2272%;
+  img {
+    width: 100%;
+  }
+}

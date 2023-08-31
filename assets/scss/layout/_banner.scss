@@ -1,0 +1,22 @@
+.banner-img-circle {
+  width: 11.13636%;
+  @include media-breakpoint-down(md) {
+    width: 52.26%;
+  }
+}
+
+.banner-backgroundStyle {
+  position: relative;
+  height: 881px;
+  @include media-breakpoint-down(md) {
+    height: 100%;
+  }
+  @include media-breakpoint-down(sm) {
+    height: 1778px;
+  }
+
+}
+
+.max-height-676{
+  max-height: 676px;
+}
