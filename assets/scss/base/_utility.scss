@@ -101,17 +101,7 @@ $utilities: map-merge($utilities,
   max-width: 1320px;
 }
 
-// @include media-breakpoint-up(sm) {
-//   .w-sm-416 {
-//     width: 416px;
-//   }
-// }
-
 @include media-breakpoint-up(md) {
-  .w-md-416px.w-md-416px {
-    width: 416px;
-  }
-
   .w-md-75.w-md-75{
     width: 75%;
   }
@@ -121,22 +111,6 @@ $utilities: map-merge($utilities,
   }
 }
 
-/* Custom Height*/
-.h-350px{
-  height: 350px;
-}
-
-// @include media-breakpoint-up(sm) {
-//   .h-sm-416 {
-//     height: 416px;
-//   }
-// }
-
-@include media-breakpoint-up(md) {
-  .h-md-416px.h-md-416px {
-    height: 416px;
-  }
-}
 
 /* Custom Border */
 @include media-breakpoint-up(md) {

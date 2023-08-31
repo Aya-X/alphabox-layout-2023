@@ -1,51 +1,9 @@
-.feedback-content:before {
-    content: "";
-    display: none;
-    height: 488px;
-
-    @include media-breakpoint-up(lg) {
-        display: block;
-    }
-
-    // 參考 Eric：https://wc-su.github.io/hexschool-2023-CSS-task8/
+// 參考 https://codepen.io/izumi-dev/pen/abPdaXJ
+.swiper-scrollbar{
+    background: rgba(255, 255, 255, 0.2);
+    position:static !important;
 }
 
-/* Hide scrollbar-x*/
-.scrollbar-x-hide {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
-
-    &::-webkit-scrollbar {
-        display: none;
-        /* Chrome, Safari and Opera */
-    }
+.swiper-scrollbar-drag {
+    background: $white  !important;
 }
-
-
-/*本來要客製化 customer feedback 的語法，後因無法更改 scrollbar 顯示寬度，所以取消*/
-/*
-@include media-breakpoint-up(sm) {
-    .overflow-x-sm-scroll{
-        overflow-x:scroll;
-    }
-  }
-
-.feedback-scrollbar {
-    &::-webkit-scrollbar {
-        height: 4px; //滾動條寬度
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background-color: $white; //滾動條滑塊顏色
-        border-radius: 3px;
-        -moz-border-radius: 3px; //Firefox 兼容
-        -webkit-border-radius: 3px; //Chrome、Safari 兼容
-    }
-
-    &::-webkit-scrollbar-track {
-        background: rgba(255, 255, 255, 0.20); //滾動條軌道背景顏色
-    }
-}
-*/

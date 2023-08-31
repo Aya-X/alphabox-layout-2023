@@ -19,11 +19,20 @@
             <span class="d-block mb-16 fs-80 material-symbols-outlined">
                 emergency
             </span>
-            <input type="email" name="email" class="w-100 mb-16 py-8 px-16 bg-white fw-bold placeholder-brand-05" placeholder="EMAIL" aria-label="Useremail"
-                aria-describedby="basic-addon1">
-            <textarea class="w-100 mb-16 py-8 px-16 bg-white text-brand-05 fw-bold placeholder-brand-05" name="comment" style="height: 120px;" placeholder="COMMENTS"></textarea>
-            <button type="submit" class="d-flex justify-content-center align-items-center ms-auto w-md-60 w-100 gap-4 py-8 bg-brand-03 fw-medium btn btn-brand-04"><span class="material-symbols-outlined">
-                point_scan
+            <div class="form-floating">
+                <input type="email" name="email" class="form-control w-100 mb-16 py-8 px-16 bg-white fw-bold"
+                    id="floatingEmail" placeholder="EMAIL" aria-label="Useremail" aria-describedby="basic-addon1">
+                <label for="floatingEmail" class="fs-md-20 fs-16 text-brand-02 fw-bold">EMAIL</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control w-100 mb-16 py-8 px-16 bg-white text-brand-05 fw-bold" id="floatingComment" name="comment"
+                    style="height: 120px;" placeholder="COMMENTS"></textarea>
+                <label for="floatingComment" class="fs-md-20 fs-16 text-brand-02 fw-bold">COMMENTS</label>
+            </div>
+            <button type="submit"
+                class="d-flex justify-content-center align-items-center ms-auto w-md-60 w-100 gap-4 py-8 bg-brand-03 fw-medium btn btn-brand-04"><span
+                    class="material-symbols-outlined">
+                    point_scan
                 </span>送出</button>
         </div>
     </div>

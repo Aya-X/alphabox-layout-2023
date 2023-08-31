@@ -23,15 +23,101 @@
         </div>
         <span class="d-block mb-16 fs-80 material-symbols-outlined">
             emergency
-        </span>        
+        </span>
     </div>
 
-    <!-- feedback content -->
-    <div class="position-relative container mw-1320 mb-md-124 mb-80 feedback-content">
-        <div class="position-lg-absolute position-static top-0 pb-md-0 pb-80">
-            <ul
-                class="d-flex flex-md-row flex-column flex-lg-nowrap flex-wrap gap-24 overflow-x-sm-scroll overflow-auto scrollbar-x-hide justify-content-lg-start  justify-content-center m-0 pb-sm-48 pb-0 list-unstyled ">
-                <li class="d-flex flex-column flex-shrink-0 p-40 w-md-416px h-md-416px h-350px w-100 bg-brand-04 ">
+    <!-- feedback content Web-->
+    <div class="d-lg-block d-none overflow-hidden">
+        <div class="container mb-md-124 mb-80">
+            <!-- Swiper -->
+            <div class="swiper feedbackSwiper swiper-initialized swiper-horizontal swiper-backface-hidden mb-48 vw-100">
+                <ul class="swiper-wrapper list-unstyled" style="height: 416px;">
+                    <li class="swiper-slide swiper-slide-active col-3">
+                        <div class="d-flex flex-column p-40 h-100 bg-brand-04">
+                            <div class="d-flex align-items-center gap-8 mb-32">
+                                <span>Zona</span>
+                                <div class="rounded-circle bg-white" style="width: 8px;height: 8px;"></div>
+                                <span>Taipei</span>
+                            </div>
+                            <p class="flex-grow-1 mb-32">
+                                ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+                            </p>
+                            <div class="d-flex align-items-center gap-16">
+                                <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
+                                <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
+                                <span>ALPHABOX+ Dianne</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-active col-3">
+                        <div class="d-flex flex-column p-40 h-100 bg-white text-black ">
+                            <div class="d-flex align-items-center gap-8 mb-32">
+                                <span>Lin</span>
+                                <div class="rounded-circle bg-black" style="width: 8px;height: 8px;"></div>
+                                <span>Chiayi</span>
+                            </div>
+                            <p class="flex-grow-1 mb-32">
+                                非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。
+                            </p>
+                            <div class="d-flex align-items-center gap-16">
+                                <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
+                                <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
+                                <span>ALPHABOX+ Felix</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-active col-3">
+                        <div class="d-flex flex-column p-40 h-100 bg-brand-04">
+                            <div class="d-flex align-items-center gap-8 mb-32">
+                                <span>云</span>
+                                <div class="rounded-circle bg-white" style="width: 8px;height: 8px;"></div>
+                                <span>Taipei</span>
+                            </div>
+                            <p class="flex-grow-1 mb-32">
+                                我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！
+                            </p>
+                            <div class="d-flex align-items-center gap-16">
+                                <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
+                                <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
+                                <span>ALPHABOX+ Dianne</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-active col-3">
+                        <div class="d-flex flex-column p-40 h-100 bg-white text-black ">
+                            <div class="d-flex align-items-center gap-8 mb-32">
+                                <span>Zichi</span>
+                                <div class="rounded-circle bg-black" style="width: 8px;height: 8px;"></div>
+                                <span>Kaohsiung</span>
+                            </div>
+                            <p class="flex-grow-1 mb-32">
+                                讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！
+                            </p>
+                            <div class="d-flex align-items-center gap-16">
+                                <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
+                                <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
+                                <span>ALPHABOX+ Vito</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row align-items-center gap-24">
+                <div class="col-8">
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="col-auto">
+                    <span class="fw-bold">SCROLL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- feedback content lg RWD -->
+    <div class="d-lg-none d-block container mw-1320 pb-80">
+        <ul class="row gy-24 flex-sm-row flex-column flex-wrap justify-content-center m-0 pb-sm-48 pb-0 list-unstyled">
+            <li class="col-sm-6 col-12">
+                <div class="d-flex flex-column p-40 bg-brand-04" style="height: 351px;">
                     <div class="d-flex align-items-center gap-8 mb-32">
                         <span>Zona</span>
                         <div class="rounded-circle bg-white" style="width: 8px;height: 8px;"></div>
@@ -45,9 +131,11 @@
                         <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
                         <span>ALPHABOX+ Dianne</span>
                     </div>
-                </li>
-                <li class="d-flex flex-column flex-shrink-0 p-40 w-md-416px h-md-416px h-350px w-100 bg-white text-black ">
-                    <div class="d-flex align-items-center  gap-8 mb-32">
+                </div>
+            </li>
+            <li class="col-sm-6 col-12">
+                <div class="d-flex flex-column p-40 bg-white text-black" style="height: 351px;">
+                    <div class="d-flex align-items-center gap-8 mb-32">
                         <span>Lin</span>
                         <div class="rounded-circle bg-black" style="width: 8px;height: 8px;"></div>
                         <span>Chiayi</span>
@@ -60,9 +148,11 @@
                         <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
                         <span>ALPHABOX+ Felix</span>
                     </div>
-                </li>
-                <li class="d-flex flex-column flex-shrink-0  p-40 w-md-416px h-md-416px h-350px w-100 bg-brand-04 ">
-                    <div class="d-flex align-items-center  gap-8 mb-32">
+                </div>
+            </li>
+            <li class="col-sm-6 col-12">
+                <div class="d-flex flex-column p-40 bg-brand-04" style="height: 351px;">
+                    <div class="d-flex align-items-center gap-8 mb-32" style="height: 351px;">
                         <span>云</span>
                         <div class="rounded-circle bg-white" style="width: 8px;height: 8px;"></div>
                         <span>Taipei</span>
@@ -75,9 +165,11 @@
                         <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
                         <span>ALPHABOX+ Dianne</span>
                     </div>
-                </li>
-                <li class="d-flex flex-column flex-shrink-0 p-40 w-md-416px h-md-416px h-350px w-100 bg-white text-black ">
-                    <div class="d-flex align-items-center  gap-8 mb-32">
+                </div>
+            </li>
+            <li class="col-sm-6 col-12">
+                <div class="d-flex flex-column p-40 bg-white text-black" style="height: 351px;">
+                    <div class="d-flex align-items-center gap-8 mb-32">
                         <span>Zichi</span>
                         <div class="rounded-circle bg-black" style="width: 8px;height: 8px;"></div>
                         <span>Kaohsiung</span>
@@ -90,21 +182,11 @@
                         <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
                         <span>ALPHABOX+ Vito</span>
                     </div>
-                </li>
-            </ul>
-            <div class="d-lg-flex d-none align-items-center gap-24">
-                <div class="position-relative">
-                    <div class="border-4 rounded-pill" style="width: 856px;border-bottom:4px solid rgba(255, 255, 255, 0.20);" ></div>
-                    <div class="position-absolute top-0 start-0 border-bottom border-whte border-4 rounded-pill" style="width: 554px;" ></div>
                 </div>
-                <span class="fw-bold ">SCROLL</span>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
-    
-    <!-- <div class="container mw-1320">
-        <div class="border-bottom border-white border-4 rounded-pill" style="width: 856px;" ></div>
-    </div> -->
+
     <!-- feedback slogan -->
     <p class="d-md-block d-none container mw-1320 pb-40 fw-bold">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
 </div>
