@@ -32,6 +32,16 @@
 
 ---
 
+## NOTES
+
+### scrollbar
+
+- 參考 Ann 的 Codepen
+
+> <https://codepen.io/annchou_illu/pen/xxQzNoj>
+
+---
+
 ## 原版指令說明
 
 ### Bootstrap 版本
