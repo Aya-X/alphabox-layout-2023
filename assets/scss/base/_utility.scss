@@ -1,10 +1,10 @@
 /* Custom Bootstrap utilities*/
 // font-size
 $utilities: map-merge($utilities,
-("font-size": map-merge(map-get($utilities, "font-size"),
-(responsive: true),
-),
-));
+    ("font-size": map-merge(map-get($utilities, "font-size"),
+        (responsive: true),
+      ),
+    ));
 /* Custom Bootstrap utilities END*/
 
 
@@ -13,6 +13,7 @@ $utilities: map-merge($utilities,
 .ff-fantasy {
   font-family: 'Shrikhand', cursive;
 }
+
 /* Custom Fonts END*/
 
 .ff-Saira {
@@ -102,17 +103,18 @@ $utilities: map-merge($utilities,
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 12px;
+
   @include media-breakpoint-up(xxl) {
     padding: 0 80px;
   }
 }
 
 @include media-breakpoint-up(md) {
-  .w-md-75.w-md-75{
+  .w-md-75.w-md-75 {
     width: 75%;
   }
 
-  .w-md-60.w-md-60{
+  .w-md-60.w-md-60 {
     width: 60%;
   }
 }
@@ -133,12 +135,23 @@ $utilities: map-merge($utilities,
   height: 351px;
 }
 
-.height-580{
+.height-580 {
   height: 580px;
 }
 
-.height-560{
+.height-560 {
   height: 560px;
+}
+
+
+.size-20 {
+  width: 20px;
+  height: 20px;
+}
+
+.size-196 {
+  width: 196px;
+  height: 196px;
 }
 
 /* Custom Width、Height END*/
@@ -149,6 +162,7 @@ $utilities: map-merge($utilities,
     border-right: 1px solid white;
   }
 }
+
 /* Custom Border END*/
 
 
@@ -158,6 +172,7 @@ $utilities: map-merge($utilities,
     margin-bottom: 124px;
   }
 }
+
 /* Custom Margin END*/
 
 /* Custom Radial-gradient */
@@ -168,28 +183,32 @@ $utilities: map-merge($utilities,
 }
 
 .linearGradient-7000ff-11002d {
-  @include gradient-x(#7000ff,#11002d);
+  @include gradient-x(#7000ff, #11002d);
 }
 
 .linearGradient-11002d-7000ff {
-  @include gradient-x(#11002d,#7000ff);
+  @include gradient-x(#11002d, #7000ff);
 }
 
 // 水平方向的漸層 使用方法 : @include radial-gradient(#28085c, #000000); 
 @mixin gradient-x($start-color: $primary, $end-color: $secondary) {
   background-image: linear-gradient(to right, $start-color, $end-color);
 }
+
 /* Custom Radial-gradient END*/
 
 /* Custom z-index*/
 .z-index-200 {
-  z-index: 2; /* 比上方的 div 更高的 Z 軸順序 */
+  z-index: 2;
+  /* 比上方的 div 更高的 Z 軸順序 */
 }
+
 /* Custom z-index END*/
 
 /* Custom Hr */
 .hr-margin-n80 {
   margin: 0 -80px;
+
   @include media-breakpoint-down(xxl) {
     margin: 0 -12px;
   }
@@ -199,14 +218,14 @@ $utilities: map-merge($utilities,
 
 /* Custom Position */
 @include media-breakpoint-up(lg) {
-  .position-lg-absolute.position-lg-absolute{
+  .position-lg-absolute.position-lg-absolute {
     position: absolute;
   }
 }
 
 /* Custom Gap */
 @include media-breakpoint-up(md) {
-  .gap-mb-74{
+  .gap-mb-74 {
     gap: 74px;
   }
 }
