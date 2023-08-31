@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="shortcut icon" href="/alphabox-layout-2023/assets/favicon-90eaceee.ico"
-    type="image/x-icon" />
+  <link rel="shortcut icon" href="/alphabox-layout-2023/assets/favicon-90eaceee.ico" type="image/x-icon" />
 
   <!-- Material Icons -->
   <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -22,9 +21,16 @@
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Shrikhand&Saira+Extra+Condensed:wght@300&display=swap"
     rel="stylesheet">
 
+  <!-- Swiper Css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
   <title>AI Component</title>
-  <script type="module" crossorigin src="/alphabox-layout-2023/assets/main-ffe46ee0.js"></script>
-  <link rel="stylesheet" href="/alphabox-layout-2023/assets/main-7d38436e.css">
+  <script type="module" crossorigin src="/alphabox-layout-2023/assets/index-d3d33418.js"></script>
+  <link rel="modulepreload" crossorigin href="/alphabox-layout-2023/assets/main-42c20b0a.js">
+  <link rel="stylesheet" href="/alphabox-layout-2023/assets/main-db913d43.css">
 </head>
   <body>
     <header class="header bg-brand-01">
@@ -33,7 +39,7 @@
     <div
       class="container-fluid d-flex align-items-center justify-content-between">
       <h1 class="h1 d-inline-block py-16 ff-fantasy fs-24 fs-md-32">
-        <a class="navbar-brand ff-fantasy fs-24 fs-md-32" href="#">ALPHABOX+</a>
+        <a class="navbar-brand ff-fantasy fs-24 fs-md-32" href="index.html">ALPHABOX+</a>
       </h1>
 
       <button class="navbar-toggler border-0" type="button"
@@ -118,8 +124,8 @@
             最新消息</h2>
         <!-- news content -->
         <ul class="row mb-md-76 mb-40 mx-0 list-unstyled">
-            <li class="col-12 px-16 border-bottom border-white ">
-                <a href="#" class="d-block  py-40 arrow-hover">
+            <li class="position-relative col-12 px-16 border-bottom border-white">
+                <div class="d-block py-40 arrow-hover">
                     <div class="d-flex gap-16 mb-8">
                         <span class="material-symbols-outlined">
                             emergency
@@ -131,22 +137,24 @@
                         <p class="col-md-9 col-12 pe-0 fw-bold">榮幸地宣布，ALPHABOX+
                             已成功完成最新一代的升級！本次升級包括提升投影解析度、優化語音辨識技術，以及擴充情感識別功能。歡迎您了解本次升級帶來的更為卓越的性能！</p>
                         <div class="col-3 text-md-end text-start">
-                            <svg class="" xmlns="http://www.w3.org/2000/svg" width="196" height="24"
-                                viewBox="0 0 196 24" fill="none">
-                                <mask id="mask0_237_5007" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
-                                    width="196" height="24">
-                                    <rect width="196" height="24" fill="#D9D9D9" />
-                                </mask>
-                                <g mask="url(#mask0_237_5007)">
-                                    <path d="M183 19L186.425 13H2V11H186.425L183 5L194 12L183 19Z" fill="white" />
-                                </g>
-                            </svg>
+                            <a href="#" class="stretched-link">
+                                <svg class="" xmlns="http://www.w3.org/2000/svg" width="196" height="24"
+                                    viewBox="0 0 196 24" fill="none">
+                                    <mask id="mask0_237_5007" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                        y="0" width="196" height="24">
+                                        <rect width="196" height="24" fill="#D9D9D9" />
+                                    </mask>
+                                    <g mask="url(#mask0_237_5007)">
+                                        <path d="M183 19L186.425 13H2V11H186.425L183 5L194 12L183 19Z" fill="white" />
+                                    </g>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                </a>
+                </div>
             </li>
-            <li class="col-md-6 col-12 px-16 border-md-end border-bottom border-white ">
-                <a href="#" class="d-block py-40 arrow-hover">
+            <li class="position-relative col-md-6 col-12 px-16 border-md-end border-bottom border-white ">
+                <div href="#" class="d-block py-40 arrow-hover">
                     <div class="d-flex gap-16 mb-8">
                         <span class="material-symbols-outlined">
                             emergency
@@ -157,22 +165,24 @@
                     <div class="row flex-column gap-12">
                         <p class="col-12 fw-bold">為答謝廣大用戶的支持，本月將舉辦一場限時優惠活動。訂閱 ALPHABOX+ 的顧客，皆可享受九折優惠。機會難得，請勿錯過此良機！</p>
                         <div class="col-12">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="24" viewBox="0 0 90 24"
-                                fill="none">
-                                <mask id="mask0_233_4968" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
-                                    width="90" height="24">
-                                    <rect width="90" height="24" fill="#D9D9D9" />
-                                </mask>
-                                <g mask="url(#mask0_233_4968)">
-                                    <path d="M77 19L80.425 13H2V11H80.425L77 5L88 12L77 19Z" fill="white" />
-                                </g>
-                            </svg>
+                            <a href="#" class="stretched-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="24" viewBox="0 0 90 24"
+                                    fill="none">
+                                    <mask id="mask0_233_4968" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                        y="0" width="90" height="24">
+                                        <rect width="90" height="24" fill="#D9D9D9" />
+                                    </mask>
+                                    <g mask="url(#mask0_233_4968)">
+                                        <path d="M77 19L80.425 13H2V11H80.425L77 5L88 12L77 19Z" fill="white" />
+                                    </g>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                </a>
+                </div>
             </li>
-            <li class="col-md-6 col-12 px-16 border-bottom border-white ">
-                <a href="#" class="d-block py-40 arrow-hover">
+            <li class="position-relative col-md-6 col-12 px-16 border-bottom border-white ">
+                <div class="d-block py-40 arrow-hover">
                     <div class="d-flex gap-16 mb-8">
                         <span class="material-symbols-outlined">
                             emergency
@@ -184,19 +194,21 @@
                         <p class="col-12 fw-bold">為使您的 ALPHABOX+
                             更趨完善，我們不懈地研發創新功能。近期，我們新推出智慧家居控制功能，使您的機器人能更便利地協助您操作家中各類智能設備。</p>
                         <div class="col-12">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="24" viewBox="0 0 90 24"
-                                fill="none">
-                                <mask id="mask0_233_4968" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
-                                    width="90" height="24">
-                                    <rect width="90" height="24" fill="#D9D9D9" />
-                                </mask>
-                                <g mask="url(#mask0_233_4968)">
-                                    <path d="M77 19L80.425 13H2V11H80.425L77 5L88 12L77 19Z" fill="white" />
-                                </g>
-                            </svg>
+                            <a href="#" class="stretched-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="24" viewBox="0 0 90 24"
+                                    fill="none">
+                                    <mask id="mask0_233_4968" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                        y="0" width="90" height="24">
+                                        <rect width="90" height="24" fill="#D9D9D9" />
+                                    </mask>
+                                    <g mask="url(#mask0_233_4968)">
+                                        <path d="M77 19L80.425 13H2V11H80.425L77 5L88 12L77 19Z" fill="white" />
+                                    </g>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                </a>
+                </div>
             </li>
         </ul>
         <!-- see more news -->
@@ -242,15 +254,101 @@
         </div>
         <span class="d-block mb-16 fs-80 material-symbols-outlined">
             emergency
-        </span>        
+        </span>
     </div>
 
-    <!-- feedback content -->
-    <div class="position-relative container mw-1320 mb-md-124 mb-80 feedback-content">
-        <div class="position-lg-absolute position-static top-0 pb-md-0 pb-80">
-            <ul
-                class="d-flex flex-md-row flex-column flex-lg-nowrap flex-wrap gap-24 overflow-x-sm-scroll overflow-auto scrollbar-x-hide justify-content-lg-start  justify-content-center m-0 pb-sm-48 pb-0 list-unstyled ">
-                <li class="d-flex flex-column flex-shrink-0 p-40 w-md-416px h-md-416px h-350px w-100 bg-brand-04 ">
+    <!-- feedback content Web-->
+    <div class="d-lg-block d-none overflow-hidden">
+        <div class="container mb-md-124 mb-80">
+            <!-- Swiper -->
+            <div class="swiper feedbackSwiper swiper-initialized swiper-horizontal swiper-backface-hidden mb-48 vw-100">
+                <ul class="swiper-wrapper list-unstyled" style="height: 416px;">
+                    <li class="swiper-slide swiper-slide-active col-3">
+                        <div class="d-flex flex-column p-40 h-100 bg-brand-04">
+                            <div class="d-flex align-items-center gap-8 mb-32">
+                                <span>Zona</span>
+                                <div class="rounded-circle bg-white" style="width: 8px;height: 8px;"></div>
+                                <span>Taipei</span>
+                            </div>
+                            <p class="flex-grow-1 mb-32">
+                                ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+                            </p>
+                            <div class="d-flex align-items-center gap-16">
+                                <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
+                                <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
+                                <span>ALPHABOX+ Dianne</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-active col-3">
+                        <div class="d-flex flex-column p-40 h-100 bg-white text-black ">
+                            <div class="d-flex align-items-center gap-8 mb-32">
+                                <span>Lin</span>
+                                <div class="rounded-circle bg-black" style="width: 8px;height: 8px;"></div>
+                                <span>Chiayi</span>
+                            </div>
+                            <p class="flex-grow-1 mb-32">
+                                非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。
+                            </p>
+                            <div class="d-flex align-items-center gap-16">
+                                <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
+                                <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
+                                <span>ALPHABOX+ Felix</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-active col-3">
+                        <div class="d-flex flex-column p-40 h-100 bg-brand-04">
+                            <div class="d-flex align-items-center gap-8 mb-32">
+                                <span>云</span>
+                                <div class="rounded-circle bg-white" style="width: 8px;height: 8px;"></div>
+                                <span>Taipei</span>
+                            </div>
+                            <p class="flex-grow-1 mb-32">
+                                我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！
+                            </p>
+                            <div class="d-flex align-items-center gap-16">
+                                <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
+                                <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
+                                <span>ALPHABOX+ Dianne</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-active col-3">
+                        <div class="d-flex flex-column p-40 h-100 bg-white text-black ">
+                            <div class="d-flex align-items-center gap-8 mb-32">
+                                <span>Zichi</span>
+                                <div class="rounded-circle bg-black" style="width: 8px;height: 8px;"></div>
+                                <span>Kaohsiung</span>
+                            </div>
+                            <p class="flex-grow-1 mb-32">
+                                讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！
+                            </p>
+                            <div class="d-flex align-items-center gap-16">
+                                <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
+                                <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
+                                <span>ALPHABOX+ Vito</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row align-items-center gap-24">
+                <div class="col-8">
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="col-auto">
+                    <span class="fw-bold">SCROLL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- feedback content lg RWD -->
+    <div class="d-lg-none d-block container mw-1320 pb-80">
+        <ul class="row gy-24 flex-sm-row flex-column flex-wrap justify-content-center m-0 pb-sm-48 pb-0 list-unstyled">
+            <li class="col-sm-6 col-12">
+                <div class="d-flex flex-column p-40 bg-brand-04" style="height: 351px;">
                     <div class="d-flex align-items-center gap-8 mb-32">
                         <span>Zona</span>
                         <div class="rounded-circle bg-white" style="width: 8px;height: 8px;"></div>
@@ -264,9 +362,11 @@
                         <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
                         <span>ALPHABOX+ Dianne</span>
                     </div>
-                </li>
-                <li class="d-flex flex-column flex-shrink-0 p-40 w-md-416px h-md-416px h-350px w-100 bg-white text-black ">
-                    <div class="d-flex align-items-center  gap-8 mb-32">
+                </div>
+            </li>
+            <li class="col-sm-6 col-12">
+                <div class="d-flex flex-column p-40 bg-white text-black" style="height: 351px;">
+                    <div class="d-flex align-items-center gap-8 mb-32">
                         <span>Lin</span>
                         <div class="rounded-circle bg-black" style="width: 8px;height: 8px;"></div>
                         <span>Chiayi</span>
@@ -279,9 +379,11 @@
                         <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
                         <span>ALPHABOX+ Felix</span>
                     </div>
-                </li>
-                <li class="d-flex flex-column flex-shrink-0  p-40 w-md-416px h-md-416px h-350px w-100 bg-brand-04 ">
-                    <div class="d-flex align-items-center  gap-8 mb-32">
+                </div>
+            </li>
+            <li class="col-sm-6 col-12">
+                <div class="d-flex flex-column p-40 bg-brand-04" style="height: 351px;">
+                    <div class="d-flex align-items-center gap-8 mb-32" style="height: 351px;">
                         <span>云</span>
                         <div class="rounded-circle bg-white" style="width: 8px;height: 8px;"></div>
                         <span>Taipei</span>
@@ -294,9 +396,11 @@
                         <div class="rounded-circle bg-white" style="width: 16px;height: 16px;"></div>
                         <span>ALPHABOX+ Dianne</span>
                     </div>
-                </li>
-                <li class="d-flex flex-column flex-shrink-0 p-40 w-md-416px h-md-416px h-350px w-100 bg-white text-black ">
-                    <div class="d-flex align-items-center  gap-8 mb-32">
+                </div>
+            </li>
+            <li class="col-sm-6 col-12">
+                <div class="d-flex flex-column p-40 bg-white text-black" style="height: 351px;">
+                    <div class="d-flex align-items-center gap-8 mb-32">
                         <span>Zichi</span>
                         <div class="rounded-circle bg-black" style="width: 8px;height: 8px;"></div>
                         <span>Kaohsiung</span>
@@ -309,21 +413,11 @@
                         <div class="rounded-circle bg-black" style="width: 16px;height: 16px;"></div>
                         <span>ALPHABOX+ Vito</span>
                     </div>
-                </li>
-            </ul>
-            <div class="d-lg-flex d-none align-items-center gap-24">
-                <div class="position-relative">
-                    <div class="border-4 rounded-pill" style="width: 856px;border-bottom:4px solid rgba(255, 255, 255, 0.20);" ></div>
-                    <div class="position-absolute top-0 start-0 border-bottom border-whte border-4 rounded-pill" style="width: 554px;" ></div>
                 </div>
-                <span class="fw-bold ">SCROLL</span>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
-    
-    <!-- <div class="container mw-1320">
-        <div class="border-bottom border-white border-4 rounded-pill" style="width: 856px;" ></div>
-    </div> -->
+
     <!-- feedback slogan -->
     <p class="d-md-block d-none container mw-1320 pb-40 fw-bold">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
 </div>
@@ -348,11 +442,20 @@
             <span class="d-block mb-16 fs-80 material-symbols-outlined">
                 emergency
             </span>
-            <input type="email" name="email" class="w-100 mb-16 py-8 px-16 bg-white fw-bold placeholder-brand-05" placeholder="EMAIL" aria-label="Useremail"
-                aria-describedby="basic-addon1">
-            <textarea class="w-100 mb-16 py-8 px-16 bg-white text-brand-05 fw-bold placeholder-brand-05" name="comment" style="height: 120px;" placeholder="COMMENTS"></textarea>
-            <button type="submit" class="d-flex justify-content-center align-items-center ms-auto w-md-60 w-100 gap-4 py-8 bg-brand-03 fw-medium btn btn-brand-04"><span class="material-symbols-outlined">
-                point_scan
+            <div class="form-floating">
+                <input type="email" name="email" class="form-control w-100 mb-16 py-8 px-16 bg-white fw-bold"
+                    id="floatingEmail" placeholder="EMAIL" aria-label="Useremail" aria-describedby="basic-addon1">
+                <label for="floatingEmail" class="fs-md-20 fs-16 text-brand-02 fw-bold">EMAIL</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control w-100 mb-16 py-8 px-16 bg-white text-brand-05 fw-bold" id="floatingComment" name="comment"
+                    style="height: 120px;" placeholder="COMMENTS"></textarea>
+                <label for="floatingComment" class="fs-md-20 fs-16 text-brand-02 fw-bold">COMMENTS</label>
+            </div>
+            <button type="submit"
+                class="d-flex justify-content-center align-items-center ms-auto w-md-60 w-100 gap-4 py-8 bg-brand-03 fw-medium btn btn-brand-04"><span
+                    class="material-symbols-outlined">
+                    point_scan
                 </span>送出</button>
         </div>
     </div>
@@ -533,6 +636,8 @@
   </div>
 </footer>
                   <!-- Main JS -->
+                  
+                  <!-- Swiper JS -->
                   
   </body>
 
