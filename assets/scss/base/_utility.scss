@@ -117,7 +117,15 @@ $utilities: map-merge($utilities,
   .w-md-60.w-md-60 {
     width: 60%;
   }
+
 }
+
+@include media-breakpoint-up(xl) {
+  .w-xl-30.w-xl-30 {
+    width: 30%;
+  }
+}
+
 
 .width-100 {
   width: 100%;
@@ -190,9 +198,21 @@ $utilities: map-merge($utilities,
   @include gradient-x(#11002d, #7000ff);
 }
 
+.bg-gradient-y-lg-none {
+  @include gradient-y(#7000ff, #11002d);
+
+  @include media-breakpoint-up(md) {
+    background-image: none;
+  }
+}
+
 // 水平方向的漸層 使用方法 : @include radial-gradient(#28085c, #000000); 
 @mixin gradient-x($start-color: $primary, $end-color: $secondary) {
   background-image: linear-gradient(to right, $start-color, $end-color);
+}
+
+@mixin gradient-y($start-color: $primary, $end-color: $secondary) {
+  background-image: linear-gradient(to bottom, $start-color, $end-color);
 }
 
 /* Custom Radial-gradient END*/
