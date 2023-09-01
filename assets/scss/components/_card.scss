@@ -13,10 +13,10 @@
 
     // #NOTE: have to change file, so remove inline bg-image
     &:nth-child(4)>a {
-      background-image: url(../assets/images/vito_mobile.png);
+      background-image: url(../images/vito_mobile.png);
 
       @include media-breakpoint-up(lg) {
-        background-image: url(../assets/images/vito_vertical.png);
+        background-image: url(../images/vito_vertical.png);
       }
     }
 
