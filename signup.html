@@ -26,11 +26,11 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
   <title>AI Component</title>
-  <script type="module" crossorigin src="/alphabox-layout-2023/assets/main-dba2f032.js"></script>
-  <link rel="stylesheet" href="/alphabox-layout-2023/assets/main-2bf4cbf8.css">
+  <script type="module" crossorigin src="/alphabox-layout-2023/assets/main-7d02749a.js"></script>
+  <link rel="stylesheet" href="/alphabox-layout-2023/assets/main-bff7e550.css">
 </head>
   <body>
-    <header class="header bg-brand-01 bg-gradient-y-lg-none">
+    <header class="header bg-brand-01">
   <nav class="navbar navbar-expand-xl container py-0" data-bs-theme="dark">
     <div
       class="container-fluid d-flex align-items-center justify-content-between">
@@ -47,8 +47,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <!-- #NOTE: w-100 do justify-between -->
+      <div
+        class="d-none d-md-block collapse navbar-collapse bg-gradient-y-lg-none"
+        id="navbarScroll">
         <ul
           class="navbar-nav navbar-nav-scroll w-100 d-md-flex justify-content-between align-items-center pt-24 pb-32"
           style="--bs-scroll-height: 768px;">
@@ -94,6 +95,54 @@
       </div>
     </div>
   </nav>
+
+  <div
+    class="d-block d-md-none collapse navbar-collapse bg-gradient-y-lg-none border-top border-white"
+    id="navbarScroll">
+    <!-- #NOTE: w-100 do justify-between -->
+    <ul
+      class="navbar-nav navbar-nav-scroll w-100 d-md-flex justify-content-between align-items-center pt-24 pb-32"
+      style="--bs-scroll-height: 768px;">
+      <span
+        class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-4 gap-md-40 text-center">
+        <li class="nav-item">
+          <a class="nav-link p-8 text-white" href="#">產品</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-8 text-white" href="#">關於我們</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-8 text-white" href="#">最新消息</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-8 text-white" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-8 text-white" href="contact.html">聯絡我們</a>
+        </li>
+      </span>
+
+      <span
+        class="d-flex flex-column flex-md-row gap-4 justify-content-between align-items-center gap-md-24 text-center">
+        <li class="nav-item">
+          <a class="nav-link p-8 text-white" href="./signup.html">註冊</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-8 text-white" href="./login.html">登入</a>
+        </li>
+        <li class="nav-item">
+          <button type="button"
+            class="btn btn-light d-inline-flex gap-4 rounded"
+            style="--bs-btn-padding-y: 8px; --bs-btn-padding-x: 16px; --bs-btn-font-size: 16px;">
+            <span class="material-symbols-outlined">
+              point_scan
+            </span>
+            訂閱
+          </button>
+        </li>
+      </span>
+    </ul>
+  </div>
 </header>
       <main class="main container pt-60 text-white bg-linear-02">
         <h2

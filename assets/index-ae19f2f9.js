@@ -1,0 +1,1 @@
+import"./main-7d02749a.js";import e from"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs";new e(".feedbackSwiper",{slidesPerView:"auto",scrollbar:{el:".swiper-scrollbar",draggable:!0},spaceBetween:24,mousewheel:!0});
